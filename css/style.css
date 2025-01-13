@@ -141,6 +141,26 @@ h1,h2{font-weight: 800;}
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     margin-top: 30px;
 }
+.carousel-caption .button
+{
+    color: #33558f;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all .6s cubic-bezier(0.22,0.81,0.01,0.99);
+    transition: all .6s cubic-bezier(0.22,0.81,0.01,0.99);
+    padding: 10px;
+    text-shadow: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.carousel-caption .button:hover{
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
 .carousel-item img {
     height: 100vh;
     object-fit: cover;
