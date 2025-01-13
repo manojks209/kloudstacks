@@ -5,6 +5,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
+    background-image: url(../images/bg-5.png);
+    background-size: contain;
+    background-repeat: repeat;
 }
 h1,h2{font-weight: 800;}
 /* Navbar section */
